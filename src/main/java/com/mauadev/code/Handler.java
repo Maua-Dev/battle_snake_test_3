@@ -70,7 +70,7 @@ public class Handler implements RequestHandler<APIGatewayProxyRequestEvent, APIG
     private Map<String, String> handleInfo() {
         Map<String, String> info = new HashMap<>();
         info.put("apiversion", "1");
-        info.put("author", "seu-nome-aqui");
+        info.put("author", "Leo");
         info.put("color", "#888888"); // Ex: Cinza
         info.put("head", "default");
         info.put("tail", "default");
